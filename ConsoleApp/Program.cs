@@ -1,7 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
 
-using SortingAlgrothm;
+SortingAlgorithm sorting = new();
 
 Console.WriteLine("Hello, World!");
-Console.WriteLine(Add(3,5));
+Console.WriteLine(sorting.Add(3, 5));
 

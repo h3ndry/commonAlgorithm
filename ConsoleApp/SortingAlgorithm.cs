@@ -1,7 +1,9 @@
-namespace SortingAlgrothm;
-
-public int Add(int a, int b)
+public class SortingAlgorithm
 {
-    return a + b;
+    public int Add(int a, int b)
+    {
+        return a + b;
+    }
 }
+
 
