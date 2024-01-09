@@ -1,4 +1,3 @@
-
 public class SortTest
 {
     SortingAlgorithm sorting = new();
@@ -12,5 +11,20 @@ public class SortTest
         sorting.SelectionSort(input);
         Assert.Equal(output, input);
 
+    }
+}
+
+public class PalindromeCheckerCheck
+{
+    PalindromeChecker palindromeChecker  = new ();
+    [Theory]
+
+    [InlineData(121, true)]
+    [InlineData(-121, false)]
+    [InlineData(123, true)]
+    public void IsPalindromeTest(int input, bool output)
+    {
+        bool isIt = palindromeChecker.IsPalindrome(input);
+        Assert.Equal(output, isIt);
     }
 }
