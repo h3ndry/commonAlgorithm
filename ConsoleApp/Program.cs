@@ -3,11 +3,20 @@
 
 // using System.Collections;
 
-SortingAlgorithm sorting = new();
+// Sorting Stafff
+// SortingAlgorithm sorting = new();
+//
+// int[] array = { 20, 5, 15, 10, 1, 19, 14, 7, 18, 2, 13, 6, 17, 3, 12, 9, 16, 4, 11, 8 };
+//
+// sorting.SelectionSort(array);
 
-int[] array = { 20, 5, 15, 10, 1, 19, 14, 7, 18, 2, 13, 6, 17, 3, 12, 9, 16, 4, 11, 8 };
 
-sorting.SelectionSort(array);
+
+//  Prime number staff
+
+PrimeNumbers primeNumber = new();
+
+primeNumber.CheckPrime(25);
 
 // PalindromeChecker palindromeChecker = new();
 
